@@ -8,9 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		BF75B1292733350500F433AE /* AvacadosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75B1282733350500F433AE /* AvacadosApp.swift */; };
-		BF75B12B2733350500F433AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75B12A2733350500F433AE /* ContentView.swift */; };
 		BF75B12D2733350C00F433AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF75B12C2733350C00F433AE /* Assets.xcassets */; };
 		BF75B1302733350C00F433AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF75B12F2733350C00F433AE /* Preview Assets.xcassets */; };
+		BF75B13827333B3000F433AE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF75B13727333B3000F433AE /* Launch Screen.storyboard */; };
+		BF75B13C27333D5600F433AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75B12A2733350500F433AE /* ContentView.swift */; };
+		BF75B13E27333D7E00F433AE /* AvcadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75B13D27333D7E00F433AE /* AvcadosView.swift */; };
+		BF75B14027333DA100F433AE /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75B13F27333DA100F433AE /* RipeningStagesView.swift */; };
+		BF75B14227333DBD00F433AE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75B14127333DBD00F433AE /* SettingsView.swift */; };
+		BF75B14427333DD200F433AE /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75B14327333DD200F433AE /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		BF75B12C2733350C00F433AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF75B12F2733350C00F433AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF75B1312733350C00F433AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF75B13727333B3000F433AE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BF75B13D27333D7E00F433AE /* AvcadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvcadosView.swift; sourceTree = "<group>"; };
+		BF75B13F27333DA100F433AE /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
+		BF75B14127333DBD00F433AE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BF75B14327333DD200F433AE /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,12 @@
 		BF75B1272733350500F433AE /* Avacados */ = {
 			isa = PBXGroup;
 			children = (
+				BF75B13B27333D1D00F433AE /* View */,
+				BF75B13A27333D1700F433AE /* Model */,
+				BF75B13927333D0D00F433AE /* Data */,
 				BF75B1282733350500F433AE /* AvacadosApp.swift */,
-				BF75B12A2733350500F433AE /* ContentView.swift */,
 				BF75B12C2733350C00F433AE /* Assets.xcassets */,
+				BF75B13727333B3000F433AE /* Launch Screen.storyboard */,
 				BF75B1312733350C00F433AE /* Info.plist */,
 				BF75B12E2733350C00F433AE /* Preview Content */,
 			);
@@ -67,6 +80,32 @@
 				BF75B12F2733350C00F433AE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF75B13927333D0D00F433AE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		BF75B13A27333D1700F433AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF75B13B27333D1D00F433AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF75B12A2733350500F433AE /* ContentView.swift */,
+				BF75B13D27333D7E00F433AE /* AvcadosView.swift */,
+				BF75B13F27333DA100F433AE /* RipeningStagesView.swift */,
+				BF75B14127333DBD00F433AE /* SettingsView.swift */,
+				BF75B14327333DD200F433AE /* AppView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF75B13827333B3000F433AE /* Launch Screen.storyboard in Resources */,
 				BF75B1302733350C00F433AE /* Preview Assets.xcassets in Resources */,
 				BF75B12D2733350C00F433AE /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +178,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF75B12B2733350500F433AE /* ContentView.swift in Sources */,
+				BF75B14227333DBD00F433AE /* SettingsView.swift in Sources */,
+				BF75B13C27333D5600F433AE /* ContentView.swift in Sources */,
+				BF75B14427333DD200F433AE /* AppView.swift in Sources */,
+				BF75B14027333DA100F433AE /* RipeningStagesView.swift in Sources */,
+				BF75B13E27333D7E00F433AE /* AvcadosView.swift in Sources */,
 				BF75B1292733350500F433AE /* AvacadosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
