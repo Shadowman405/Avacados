@@ -15,6 +15,6 @@ struct RipeningStagesView: View {
 
 struct RipeningStagesView_Previews: PreviewProvider {
     static var previews: some View {
-        RipeningStagesView()
+        RipeningStagesView() 
     }
 }

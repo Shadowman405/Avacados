@@ -28,7 +28,7 @@ struct AppView: View {
             SettingsView()
                 .tabItem {
                     Image("tabicon-settings")
-                    Text("Settings")
+                    Text("Settings") 
                 }
         }
         .edgesIgnoringSafeArea(.top)
