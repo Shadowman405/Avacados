@@ -16,7 +16,10 @@
 		BF75B14027333DA100F433AE /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75B13F27333DA100F433AE /* RipeningStagesView.swift */; };
 		BF75B14227333DBD00F433AE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75B14127333DBD00F433AE /* SettingsView.swift */; };
 		BF75B14427333DD200F433AE /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75B14327333DD200F433AE /* AppView.swift */; };
-		BF75B146273344AE00F433AE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75B145273344AE00F433AE /* Model.swift */; };
+		BF75B146273344AE00F433AE /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75B145273344AE00F433AE /* HeaderModel.swift */; };
+		BF75B148273475BB00F433AE /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75B147273475BB00F433AE /* HeaderView.swift */; };
+		BF75B14A27347BF500F433AE /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75B14927347BF500F433AE /* HeaderData.swift */; };
+		BF75B14C27347E8F00F433AE /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF75B14B27347E8F00F433AE /* DishesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +34,10 @@
 		BF75B13F27333DA100F433AE /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
 		BF75B14127333DBD00F433AE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		BF75B14327333DD200F433AE /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
-		BF75B145273344AE00F433AE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BF75B145273344AE00F433AE /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		BF75B147273475BB00F433AE /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		BF75B14927347BF500F433AE /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
+		BF75B14B27347E8F00F433AE /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,7 @@
 		BF75B13927333D0D00F433AE /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				BF75B14927347BF500F433AE /* HeaderData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -94,7 +101,7 @@
 		BF75B13A27333D1700F433AE /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BF75B145273344AE00F433AE /* Model.swift */,
+				BF75B145273344AE00F433AE /* HeaderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -107,6 +114,8 @@
 				BF75B13F27333DA100F433AE /* RipeningStagesView.swift */,
 				BF75B14127333DBD00F433AE /* SettingsView.swift */,
 				BF75B14327333DD200F433AE /* AppView.swift */,
+				BF75B147273475BB00F433AE /* HeaderView.swift */,
+				BF75B14B27347E8F00F433AE /* DishesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,13 +190,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF75B146273344AE00F433AE /* Model.swift in Sources */,
+				BF75B146273344AE00F433AE /* HeaderModel.swift in Sources */,
 				BF75B14227333DBD00F433AE /* SettingsView.swift in Sources */,
 				BF75B13C27333D5600F433AE /* ContentView.swift in Sources */,
 				BF75B14427333DD200F433AE /* AppView.swift in Sources */,
 				BF75B14027333DA100F433AE /* RipeningStagesView.swift in Sources */,
 				BF75B13E27333D7E00F433AE /* AvcadosView.swift in Sources */,
 				BF75B1292733350500F433AE /* AvacadosApp.swift in Sources */,
+				BF75B14A27347BF500F433AE /* HeaderData.swift in Sources */,
+				BF75B14C27347E8F00F433AE /* DishesView.swift in Sources */,
+				BF75B148273475BB00F433AE /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
